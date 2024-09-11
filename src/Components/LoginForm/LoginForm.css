@@ -24,16 +24,16 @@ h1{
 
 .wrapper {
     color: #DC143C;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
+    width: 100vw; 
+    height: 100vh; 
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('../Assets/backgorund.png');
-    background-size: cover; /* Ensure the background image covers the entire div */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background image repetition */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 input[type="text"], input[type="password"], textarea {
@@ -47,8 +47,8 @@ input[type="text"], input[type="password"], textarea {
     box-sizing: border-box; 
   }
   .form-container {
-    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
-    padding: 20px; /* Add padding inside the box */
-    border-radius: 8px; /* Optional: Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }

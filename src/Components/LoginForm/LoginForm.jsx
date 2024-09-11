@@ -10,14 +10,13 @@ export default function Login() {
     const navigate = useNavigate();
   
     const handleSubmit = (event) => {
-        event.preventDefault(); // Prevent form from submitting normally
-  
-        // Hardcoded credentials
+        event.preventDefault(); 
+        
         const name = 'kek';
         const pass = 'kek';
   
         if (username === name && password === pass) {
-            navigate('/dashboard'); // Redirect to dashboard
+            navigate('/dashboard'); 
         } else {
             alert('Incorrect username or password');
         }
@@ -27,7 +26,7 @@ export default function Login() {
         
         <div className="wrapper">
             <div className="form-container">
-            <form onSubmit={handleSubmit}> {/* Bind handleSubmit to onSubmit */}
+            <form onSubmit={handleSubmit}> {}
                 <h1>VERIFY YOURSELF BOSS</h1>
                 <div className="form-box">
                     <input 
@@ -48,7 +47,7 @@ export default function Login() {
                     <GiBossKey className="icon"/>
                 </div>
                 <div className="login">
-                    <button type="submit">Login</button> {/* Keep button type="submit" */}
+                    <button type="submit">Login</button> {}
                 </div>
             </form>
             </div>

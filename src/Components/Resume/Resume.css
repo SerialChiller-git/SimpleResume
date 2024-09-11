@@ -1,18 +1,18 @@
-/* Resume.css */
+
 .reWrap {
     background-color: antiquewhite;
     background-image: none;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    padding: 20px; /* Optional padding */
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 20px; 
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: flex-start; /* Align items to the left */
-    justify-content: flex-start; /* Align items to the top */
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
 }
 
 .re {
-    /* Styles specific to h1 elements with class 're' */
-    color: darkblue; /* Example style */
+   
+    color: darkblue; 
 }

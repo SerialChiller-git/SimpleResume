@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from './Components/LoginForm/LoginForm'; // Import your Login component
-import Resume from './Components/Resume/Resume.jsx'; // Import the Dashboard component
+import Login from './Components/LoginForm/LoginForm'; 
+import Resume from './Components/Resume/Resume.jsx'; 
 
 function App() {
   return (
