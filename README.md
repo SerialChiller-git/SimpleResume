@@ -6,4 +6,5 @@ Login pass : kek
 
 Preview: 
 
-[![Watch the video](https://img.youtube.com/vi/0TEaFWcISEQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=0TEaFWcISEQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0TEaFWcISEQ?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
